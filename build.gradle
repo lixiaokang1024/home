@@ -20,6 +20,17 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation('org.springframework.boot:spring-boot-starter-validation')
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+    implementation 'mysql:mysql-connector-java:5.1.49'
+    implementation 'org.mybatis:mybatis-spring:2.0.6'
+    implementation 'org.mybatis:mybatis:3.5.7'
+    implementation 'com.github.ben-manes.caffeine:caffeine:2.6.2'
+    implementation 'com.alibaba:druid:1.2.4'
+
     compileOnly 'org.projectlombok:lombok'
      'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
